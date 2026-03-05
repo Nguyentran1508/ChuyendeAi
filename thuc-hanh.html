@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyên đề AI</title>
+
+    <!-- Google Font K2D -->
+    <link href="https://fonts.googleapis.com/css2?family=K2D:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Giảm khoảng cách dòng chung */
+body {
+    line-height: 1.4;
+}
+
+/* Giảm khoảng cách giữa các section */
+.section {
+    margin-bottom: 25px;
+}
+
+/* Giảm khoảng cách tiêu đề */
+h2, h3, h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Giảm khoảng cách đoạn văn */
+p {
+    margin-bottom: 10px;
+}
+
+/* Giảm khoảng cách danh sách */
+ul {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Giảm giãn dòng riêng cho khung prompt */
+.prompt-box {
+    line-height: 1.5;
+    padding: 15px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SỬ DỤNG CHATGBT</h1>
+</header>
+
+<nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="gioi-thieu.html">Giới thiệu</a>
+    <a href="tong-quan.html">Tổng quan AI</a>
+    <a href="thuc-hanh.html">Công cụ ChatGBT</a>
+    <a href="powerpoint.html">Một số công cụ khác</a>
+</nav>
+
+<div class="container">
+    <div class="section">
+        <h2 style="text-align: center; "><a href="https://chatgpt.com/" style="color: #f9d423;">LINK TRUY CẬP CHATGPT</a></h2>
+    </div>
+    <div class="section">
+        <h2>1. SOẠN KẾ HOẠCH BÀI DẠY</h2>
+        <h4>Gợi ý Prompt:</h4>
+        <div style="background-color:#2f2f2f; color:#ffffff; padding:20px; border-radius:10px; line-height:1.6;">
+            Bạn là giáo viên môn [Môn] lớp [LỚP]. <br>
+
+            Hãy thiết kế hoạt động [KHỞI ĐỘNG / HÌNH THÀNH KIẾN THỨC / LUYỆN TẬP / VẬN DỤNG] 
+            cho bài: [TÊN BÀI / NỘI DUNG]. <br>
+
+            <strong>Yêu cầu bắt buộc:</strong><br>
+            - Bám sát nội dung trong SGK: [TÊN SÁCH GIÁO KHOA] <br>
+            - Trích dẫn rõ nội dung hoặc trang (nếu cần) <br>
+            - Không đưa kiến thức ngoài chương trình <br>
+
+            <strong>Trình bày đúng 3 mục:</strong><br>
+            1. Mục tiêu - Kiến thức (phù hợp nội dung trong SGK) <br>
+            2. Nội dung - Nội dung trọng tâm đúng theo SGK - Không mở rộng ngoài phạm vi bài học <br>
+            3. Tổ chức thực hiện và sản phẩm theo 4 bước: <br>
+            - Chuyển giao nhiệm vụ<br>
+            - Thực hiện nhiệm vụ <br>
+            - Báo cáo, thảo luận <br>
+            - Kết luận, nhận định <br>
+
+            <strong>Trình bày dạng bảng 2 cột:</strong><br>
+            Cột 1: Hoạt động của GV và HS <br>
+            Cột 2: Sản phẩm <br>
+
+            <strong>Yêu cầu thêm:</strong><br>
+            - Phù hợp chương trình GDPT 2018 <br>
+            - Thời lượng: [X phút] <br>
+            - Phù hợp học sinh trình độ trung bình khá
+        </div>
+        <h2>Một số mẫu cãi tiến nội dung khi cần:</h2>
+        <ul>
+            <li>Hãy phát triển nội dung trên chi tiết hơn nhưng vẫn giữ nguyên định dạng.</li>
+            <li>Mở rộng phần “Tổ chức thực hiện” để hoạt động cụ thể, rõ việc của GV và HS hơn.</li>
+            <li>Viết cụ thể lời thoại gợi mở của giáo viên trong Bước 1.</li>
+            <li>Bổ sung câu hỏi gợi mở tư duy cho học sinh ở mỗi bước.</li>
+            <li>Thêm phương án xử lý khi học sinh trả lời sai.</li>
+        </ul>
+        <h2>VÍ DỤ MẪU: </h2>
+        <p>Sử dụng ChatGPT để soạn hoạt động khởi động cho Bài 34: Nghề phát triển phần mềm – Tin học 10.</p>
+
+        <h3>Ví dụ Prompt:</h3>
+        <p>
+        “Soạn kế hoạch bài dạy cho hoạt động khởi động bài 34: Nghề phát triển phần mềm, tin học 10 trong đó thực hiện: 
+<br>Có đầy đủ đề mục sau: Mục tiêu; nội dung; tổ chức thực hiện và sản phẩm 
+<br>Trong phần tổ chức thực hiện và sản phẩm thực hiện chia làm 2 nội dung là Hoạt động của GV và HS; Sản phẩm theo công văn 5512 
+<br>Trong phần hoạt động của GV và HS thực hiện có các bước như : Chuyển giao nhiệm vụ, HS thực hiện nhiệm vụ học tập, báo cáo kết quả thảo luận, đánh giá kết quả thực hiện 
+<br>Lưu ý: Dựa trên sách giáo khoa tin học 10 kết nối tri thức trang 180
+”
+        </p>
+        <iframe 
+            src="https://drive.google.com/file/d/1utSmDtzxPt4DPjTqm3tJucsGFJo0KJ3A/preview"
+            width="100%" 
+            height="480" 
+            allow="autoplay">
+        </iframe>
+    </div>
+
+    <div class="section">
+        <h2>2. SOẠN ĐỀ KIỂM TRA</h2>
+        <h4>Tải file dữ liệu mẫu lên ChatGBT</h4>
+        <p>Tải file ma trận đề lên hệ thống AI và yêu cầu tạo đề kiểm tra theo đúng cấu trúc.</p>
+        <h4>Gợi ý Prompt:</h4> 
+        <div style="background-color:#2f2f2f; color:#ffffff; padding:20px; border-radius:10px; line-height:1.6;">
+           Dựa vào ma trận đề đã tải lên <br>
+            Hãy soạn đề kiểm tra môn [MÔN] lớp [LỚP] <br>
+            - Đúng số câu theo ma trận <br>
+            - Đúng mức độ: Nhận biết – Thông hiểu – Vận dụng – Vận dụng cao <br>
+            - Có đáp án và thang điểm <br>
+            - Nội dung bám SGK hiện hành <br>
+            Không trùng lặp câu hỏi.
+        </div>
+       <h2>Một số mẫu cãi tiến nội dung khi cần:</h2>
+        <ul>
+            <li><strong>Kiểm tra lại độ chính xác theo ma trận</strong></li>
+            <p>Hãy đối chiếu đề vừa soạn với ma trận đã cho: <br>
+            - Có đủ số câu từng mức độ chưa? <br>
+            - Có đúng tỉ lệ điểm không? <br>
+            - Có câu nào sai mức độ không? <br>
+            Trình bày kết quả đối chiếu dưới dạng bảng.</p>
+            <li><strong>Tăng chất lượng câu hỏi</strong></li>
+            <p>Nâng cấp các câu hỏi mức độ Vận dụng và Vận dụng cao để tăng tính phân hóa học sinh. Giữ nguyên số câu và cấu trúc đề.</p>
+            <li><strong>Làm rõ thang điểm</strong></li>
+            <p>Viết lại phần đáp án và thang điểm chi tiết: <br>
+            - Mỗi câu bao nhiêu điểm? <br>
+            - Nếu là tự luận, chia điểm theo ý nhỏ.</p>
+        </ul>
+        <h3>Ví dụ Prompt:</h3>
+        <p>
+        “Thực hiện soạn một đề kiểm tra môn Sinh học lớp 12 theo ma trận đề trong file trên. 
+            <br>Lưu ý: tuân thủ theo ma trận, đầy đủ câu hỏi, dạng câu hỏi trong file 
+            <br>Dựa trên nội dung chương trình trong sách giáo khoa sinh học 12
+            ”
+        </p>
+        <iframe 
+            src="https://drive.google.com/file/d/1VyK3VbvTx4HGMbE83LbvMD7RSJXG_8iy/preview"
+            width="100%" 
+            height="480" 
+            allow="autoplay">
+        </iframe>
+    </div>
+
+    <div class="section">
+        <h2>3. XUẤT FILE WORD</h2>
+        <p>Yêu cầu AI xuất nội dung thành file Word đúng định dạng để lưu trữ hoặc in ấn.</p>
+        <h3>Mẫu xuất cho kế hoạch bài dạy</h3>
+        <h4>Gợi ý Prompt:</h4>
+        <div style="background-color:#2f2f2f; color:#ffffff; padding:20px; border-radius:10px; line-height:1.6;">
+           Xuất nội dung trên thành file Word. <br>
+            Yêu cầu: <br>
+            - Giữ nguyên 3 mục: <br>
+            a) Mục tiêu <br>
+            b) Nội dung <br>
+            c) Tổ chức thực hiện và sản phẩm <br>
+            - Phần c) trình bày dạng bảng 2 cột: <br>
+                + Cột trái: Hoạt động của GV và HS <br>
+                + Cột phải: Sản phẩm <br>
+            - Bảng có đường viền đầy đủ <br>
+            - Trình bày giống hồ sơ dự giờ
+        </div>
+        <h3>Mẫu xuất cho đề kiểm tra</h3>
+        <h4>Gợi ý Prompt:</h4>
+        <div style="background-color:#2f2f2f; color:#ffffff; padding:20px; border-radius:10px; line-height:1.6;">
+           Xuất đề kiểm tra trên theo mẫu sau: <br>
+            - Có tiêu đề trường THCS và THPT Tân Đức <br>
+            - Có tên môn [MÔN] <br>
+            - Có thời gian làm bài <br>
+            - Có phần ghi họ tên, lớp <br>
+            - Cấu trúc đúng theo ma trện <br>
+            - Đáp án và thang điểm ở trang riêng <br>
+            Xuất thành file Word đầy đủ nội dung hoàn chỉnh để in.
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 - Chuyên đề AI trong giáo dục <br>
+    Trần Mỹ Nguyên
+</footer>
+
+</body>
+</html>
